@@ -11,5 +11,11 @@ public class ABSYS {
             stringMasuk(arr[i]);
         }
     }
-
+    static void stringMasuk(String a){
+		String test = "\\s	";
+		String[] part = a.split(test);
+		for(int i=0;i<part.length;i++){
+			System.out.println(part[i]+" "); 
+		}
+    }
 }
